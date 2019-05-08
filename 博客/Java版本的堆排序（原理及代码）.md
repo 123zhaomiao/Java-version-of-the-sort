@@ -32,7 +32,6 @@ public class Test {
             System.out.print(i+" ");
         }
     }
-
     private static void createHeap(int[] arr) {
         //1.建堆从最后一个非叶子结点开始
         int begin = arr.length/2 -1;
