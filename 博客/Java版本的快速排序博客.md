@@ -1,7 +1,6 @@
 ﻿快速排序的思想:[c语言版快速排序](https://blog.csdn.net/zhao_miao/article/details/82828134)
 ```java
 import java.util.Arrays;
-
 /**
  * 快速排序算法的基本思想是:
  *
