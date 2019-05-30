@@ -32,7 +32,6 @@ public class HeapSort {
             adjustHeap(arr,i,arr.length-1);
         }
     }
-
     private static void adjustHeap(int[] arr,int begin,int end) {
         int temp = 0;
         int child = 0;
