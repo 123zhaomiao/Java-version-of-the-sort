@@ -1,5 +1,4 @@
 package 排序.插入排序;
-
 public class InsertSort {
     public static void main(String[] args) {
         int [] arr = new int[]{3,8,5,7,6,9,4,2,1};
