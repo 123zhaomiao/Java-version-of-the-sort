@@ -31,6 +31,7 @@ public class InsertSort {
                 arr[k+1] = arr[k];
                 k--;
             }
+            
             arr[k+1] = key;
         }
     }
