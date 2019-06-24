@@ -13,7 +13,6 @@ public class InsertSort {
             System.out.print(i+" ");
         }
     }
-    
     /**
      * 插入排序原理：
      *  将一组数据分成两组，分别将其称为有序组与待插入组
