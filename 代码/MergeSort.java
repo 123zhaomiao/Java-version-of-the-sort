@@ -13,6 +13,7 @@ public class MergeSort {
             System.out.print(i+" ");
         }
     }
+    
     /**
      * 归并排序的思想和快速排序的思想差不多
      * 只是归并排序的基准值选择的是待排序数组的中间位置
