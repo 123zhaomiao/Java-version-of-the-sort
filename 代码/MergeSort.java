@@ -47,7 +47,6 @@ public class MergeSort {
         while(begin <= right){
             temp[k++] = arr[begin++];
         }
-
         //将排序好的数组赋值到原来的数组
         for(int i = 0;i< temp.length;i++){
             arr[oldleft+i] = temp[i];
