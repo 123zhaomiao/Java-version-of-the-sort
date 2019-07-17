@@ -34,7 +34,7 @@ public class MergeSort {
         int begin = position+1;
         int oldleft = left;
         int k = 0;
-
+        //判断合法性
         while(left <= position && begin <= right){
             if(arr[left] < arr[begin]){
                 temp[k++] = arr[left++];
