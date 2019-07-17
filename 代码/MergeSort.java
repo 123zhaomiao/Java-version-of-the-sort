@@ -24,6 +24,7 @@ public class MergeSort {
             int position = (left+right)/2;
             mergeSort(arr,left,position);
             mergeSort(arr,position+1,right);
+            //该方法时进行两个有序数组的合并
             merge(arr,left,position,right);
         }
     }
