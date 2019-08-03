@@ -31,8 +31,7 @@ public class InsertSort {
             while(k >= 0 && arr[k] > key) {
                 arr[k+1] = arr[k];
                 k--;
-            }
-            
+            }      
             arr[k+1] = key;
         }
     }
