@@ -28,6 +28,7 @@ public class MergeSort {
             merge(arr,left,position,right);
         }
     }
+    
     //合并 与两个链表的合并类似
     private static void merge(int [] arr,int left,int position,int right){
         int[] temp = new int[right - left + 1];
