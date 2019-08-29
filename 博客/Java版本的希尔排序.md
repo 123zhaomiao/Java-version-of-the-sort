@@ -1,7 +1,6 @@
 ﻿[C语言版本的希尔排序](https://blog.csdn.net/zhao_miao/article/details/82788162)
 
 ```java
-
 public class ShellSort {
     public static void main(String[] args) {
         int [] arr = new int[]{3,8,5,7,6,9,4,2,1};
